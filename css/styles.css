@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* @font-face {
+    font-family: 'manifesto';
+    src: url('../fonts/MANIFESTO.ttf') format('truetype');
+    font-weight: 400;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+} */
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInDelay {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.wave {
+    background: url(https://gist.githubusercontent.com/ratnabh/da8213a27700e0e1c2d1c81961070f6f/raw/3608a5072f4e392b852e5cc3c244841025b32c81/wave1.svg) repeat-x; 
+    position: absolute;
+  opacity:0.2;
+  bottom: 0px;
+  width: 3840px;
+  height: 198px;
+  animation: wave 4s linear infinite;
+  transform: translate3d(0, 0, 0);
+  }
+  
+  @keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1920px;
+  }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.animate-fadeInDelay {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+.max-h-screen-90 {
+    max-height: 90vh;
+}
+
+.min-h-screen-90 {
+    min-height: 90vh;
+}
+
+@media (min-width: 768px) { /* md en Tailwind corresponde a min-width: 768px */
+    .md\:min-h-screen-90 {
+        min-height: 90vh;
+    }
+}
+
+/* Swiper Styles */
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+}
+
+.swiper-pagination-bullet-active {
+    background: gray;
+}

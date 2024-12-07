@@ -1,0 +1,14 @@
+{
+    "es": {
+        "title": "Soy Diego Alemán",
+        "subtitle": "Soy un estudiante universitario apasionado por la ciberseguridad y las redes informáticas, con un fuerte enfoque en la seguridad ofensiva. Mi especialidad son las pruebas de penetración controladas y éticas.",
+        "cvText": "Descargar CV",
+        "cvLink": "docs/es.cv.pdf"
+    },
+    "en": {
+        "title": "I am Diego Alemán",
+        "subtitle": "I am a college student passionate about cybersecurity and computer networks, with a strong focus on offensive security. My specialty is controlled and ethical penetration testing.",
+        "cvText": "Download CV",
+        "cvLink": "docs/en.cv.pdf"
+    }
+}

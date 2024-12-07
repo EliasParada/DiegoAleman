@@ -1,0 +1,45 @@
+{
+    "es": {
+      "sectionTitle": "Testimonios",
+      "subtitle": "Lo Que Dicen Otras Personas",
+      "description": "Descubre lo que otros opinan sobre mi trabajo y experiencia profesional.",
+      "testimonials": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis accumsan euismod.",
+          "name": "Miss Sammy Feeney",
+          "position": "Ejecutiva de Métricas de Inversión",
+          "avatar": "https://via.placeholder.com/50",
+          "rating": 5
+        },
+        {
+          "text": "Vestibulum congue metus quis accumsan euismod. Maecenas sed est mollis, convallis nisi convallis.",
+          "name": "Rosemary Mante",
+          "position": "Agente de Integración Humana",
+          "avatar": "https://via.placeholder.com/50",
+          "rating": 5
+        }
+      ]
+    },
+    "en": {
+      "sectionTitle": "Testimonial",
+      "subtitle": "See What Other People Are Saying",
+      "description": "Discover what others have to say about my work and professional experience.",
+      "testimonials": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis accumsan euismod.",
+          "name": "Miss Sammy Feeney",
+          "position": "Investor Metrics Executive",
+          "avatar": "https://via.placeholder.com/50",
+          "rating": 5
+        },
+        {
+          "text": "Vestibulum congue metus quis accumsan euismod. Maecenas sed est mollis, convallis nisi convallis.",
+          "name": "Rosemary Mante",
+          "position": "Human Integration Agent",
+          "avatar": "https://via.placeholder.com/50",
+          "rating": 5
+        }
+      ]
+    }
+  }
+  

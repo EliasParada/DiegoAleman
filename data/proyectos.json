@@ -1,0 +1,41 @@
+{
+    "es": {
+      "sectionTitle": "Proyectos",
+      "subtitle": "Explora Mis Proyectos",
+      "projects": [
+        {
+          "title": "Red empresarial",
+          "description": "Red que simula un complejo sistema de comunicaciones que se extiende por todo el pais.",
+          "image": "img/proyectos/img_prin.jpg",
+          "carousel": ["img/proyectos/logo2.jpg"],
+          "gallery": ["img/proyectos/img_red.jpg","img/proyectos/img_red2.jpg","img/proyectos/img_red3.jpg", "img/proyectos/img_red4.jpg"],
+          "details": "Red diseñada usando las siguientes protocolos: Túneles de Red, STP y ACL (estándar, extendida y nombrada),IPv4, IPv6, seguridad MD5, Etherchannel, NAT, EIGRP, RIP OSPF área única y multiarea, VTP-VLAN , Inter-VLAN, EIGRP, RIP, Redes Inalámbricas, IOT, EIGRP, RIP y Clústeres.",
+          "link": "https://docs.google.com/document/d/1dksUzaomuU8Ihd0j3LTFFHxKKcMh2USp/edit?usp=sharing&ouid=113303509095636816159&rtpof=true&sd=true"
+        },
+        {
+          "title": "Análisis de Vulnerabilidades",
+          "description": "Un análisis exhaustivo de vulnerabilidades.",
+          "image": "ruta-a-imagen-proyecto-2.jpg",
+          "carousel": ["ruta-a-imagen-carrusel-3.jpg", "ruta-a-imagen-carrusel-4.jpg"],
+          "gallery": ["ruta-a-imagen-galeria-3.jpg", "ruta-a-imagen-galeria-4.jpg"],
+          "details": "Descripción detallada de este proyecto con herramientas utilizadas y resultados."
+        }
+      ]
+    },
+    "en": {
+      "sectionTitle": "Projects",
+      "subtitle": "Explore My Projects",
+      "projects": [
+        {
+          "title": "Business network",
+          "description": "Network that simulates a complex communications system extending throughout El Salvador.",
+          "image": "img/proyectos/img_prin.jpg",
+          "carousel": ["img/proyectos/cisco.jpg","img/proyectos/logo2.jpg"],
+          "gallery": ["img/proyectos/img_red.jpg","img/proyectos/img_red2.jpg","img/proyectos/img_red3.jpg", "img/proyectos/img_red4.jpg"],
+          "details": "Network designed using the following protocols: Network Tunnels, STP and ACL (standard, extended and named), IPv4, IPv6, MD5 security, Etherchannel, NAT, EIGRP, RIP OSPF single and multi-area, VTP-VLAN, Inter-VLAN, EIGRP, RIP, Wireless Networks, IOT, EIGRP, RIP and Clusters.",
+          "link": "https://docs.google.com/document/d/1dksUzaomuU8Ihd0j3LTFFHxKKcMh2USp/edit?usp=sharing&ouid=113303509095636816159&rtpof=true&sd=true"
+        }
+      ]
+    }
+  }
+  

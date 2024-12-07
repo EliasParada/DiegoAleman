@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Alexander Alemán Castro - Pentester Jr. y Entusiasta de Ciberseguridad</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+          content="Portafolio de Diego Alexander Alemán Castro, Pentester Jr. y estudiante apasionado por la ciberseguridad y las redes informáticas. Especializado en pruebas de penetración controladas y seguridad ofensiva.">
+    <meta name="keywords"
+          content="Diego Alexander Alemán Castro, Pentester Jr., ciberseguridad, pruebas de penetración, seguridad informática, redes, análisis de vulnerabilidades, seguridad ofensiva">
+    <meta name="author" content="Diego Alexander Alemán Castro">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Diego Alexander Alemán Castro - Pentester Jr. y Ciberseguridad">
+    <meta property="og:description"
+          content="Portafolio de Diego Alexander Alemán Castro, Pentester Jr. especializado en pruebas de penetración, gestión de redes y análisis de vulnerabilidades.">
+    <meta property="og:image" content="https://florariza.com/img/profile/portada_2_optimized.png">
+    <meta property="og:url" content="https://florariza.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diego Alexander Alemán Castro - Pentester Jr. y Ciberseguridad">
+    <meta name="twitter:description"
+          content="Portafolio de Diego Alexander Alemán Castro, estudiante y Pentester Jr. con interés en la seguridad informática y redes.">
+    <meta name="twitter:image" content="https://florariza.com/img/profile/portada_2_optimized.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Lightbox2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d36239a715.js" crossorigin="anonymous"></script>
+    <!-- Email.JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Headless UI -->
+    <link href="https://unpkg.com/@headlessui/react@latest/dist/headlessui.min.css" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.5.1/dist/cdn.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-black text-white">
+	<header class="w-full">
+        <div class="mx-auto px-12 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">
+                <img src="img/logo.png" class="w-16 h-16" alt="Diego Alemán">
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-4 p-2 text-lg rounded-full bg-red-200/50" id="main-nav">
+                <a href="#inicio" class="nav-link header translatable bg-transparent transition-all duration-300 text-white py-2 px-4 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-800 rounded-full">Inicio</a>
+                <a href="#sobre-mi" class="nav-link header translatable bg-transparent transition-all duration-300 text-white py-2 px-4 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-800 rounded-full">Sobre mí</a>
+                <a href="#proyectos" class="nav-link header translatable bg-transparent transition-all duration-300 text-white py-2 px-4 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-800 rounded-full">Proyectos</a>
+                <a href="#testimonios" class="nav-link header translatable bg-transparent transition-all duration-300 text-white py-2 px-4 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-800 rounded-full">Testimonios</a>
+                <a href="#contacto" class="nav-link header translatable bg-transparent transition-all duration-300 text-white py-2 px-4 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-800 rounded-full">Contacto</a>
+            </nav>            
+
+            <div class="flex md:hidden items-center">
+                <button id="menu-button" class="text-white focus:stroke-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- <div class="relative">
+                <button id="language-button" class="bg-blue-500 text-white px-4 py-2 rounded-full">Idioma</button>
+                <div id="language-menu" class="absolute right-0 mt-2 w-32 bg-white border rounded-lg shadow-lg hidden">
+                    <button id="select-es" class="block w-full px-4 py-2 text-gray-700 hover:bg-gray-100">Español</button>
+                    <button id="select-en" class="block w-full px-4 py-2 text-gray-700 hover:bg-gray-100">English</button>
+                </div>
+            </div> -->
+        </div>
+
+        <div id="mobile-menu" class="md:hidden hidden">
+            <nav class="flex flex-col space-y-4 px-4 py-2">
+                <a href="#inicio" class="header translatable hover:text-gray-900">Inicio</a>
+                <a href="#sobre-mi" class="header translatable hover:text-gray-900">Sobre mí</a>
+                <a href="#proyectos" class="header translatable hover:text-gray-900">Proyectos</a>
+                <a href="#testimonios" class="header translatable hover:text-gray-900">Testimonios</a>
+                <a href="#contacto" class="header translatable hover:text-gray-900">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+	<main class="w-full">
+        <!-- <div class="w-32 h-32 rounded-full border-4 border-transparent bg-red-500/25 shadow-[0_0_20px_10px_rgba(239,68,68,0.3)]"></div> -->
+		<section id="inicio" class="relative flex pt-8 px-6 md:px-24 space-y-6 md:space-y-0 md:space-x-4">
+		</section>
+        
+        <section id="sobre-mi" class="relative flex pt-8 px-6 md:px-24 space-y-6 md:space-y-0 md:space-x-4"></section>
+
+
+        <section id="habilidades" class="relative flex flex-col justify-center items-center pt-8 px-6 md:px-24 text-center"></section>
+
+        <section id="certificaciones" class="relative flex flex-col justify-center items-center pt-8 px-6 md:px-24 text-center"></section>
+        
+        <section id="proyectos" class="relative flex flex-col justify-center items-center pt-8 px-6 md:px-24 text-center">
+        </section>
+
+        <!-- Modal de Proyecto -->
+        <div id="modal-proyecto" class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center hidden">
+            <div class="relative w-11/12 max-w-4xl bg-gray-900 rounded-lg overflow-hidden p-6">
+                <button onclick="closeModal()" class="absolute top-4 right-4 bg-red-600 text-white rounded-full p-2 z-10">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+                <div class="swiper-container w-full h-64">
+                    <div class="swiper-wrapper">
+                        <!-- Imágenes del carrusel -->
+                        <div class="swiper-slide">
+                            <img src="img/proyectos/logo2.jpg" alt="Carrusel 2" class="w-full h-full object-cover">
+                        </div>
+                        <!-- Más imágenes -->
+                    </div>
+                    <!-- Controles del carrusel -->
+                    <div class="swiper-button-next text-red-600"></div>
+                    <div class="swiper-button-prev text-red-600"></div>
+                </div>
+                <div class="mt-6">
+                    <h3 class="text-2xl font-bold text-white">Detalles del Proyecto</h3>
+                    <p class="text-gray-400 mt-4">Descripción extendida del proyecto, incluyendo tecnologías utilizadas, desafíos y logros.</p>
+                    <div class="mt-6 grid grid-cols-2 gap-4">
+                        <!-- Galería de Imágenes -->
+                        <a href="img/proyectos/img_red.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
+                            <img src="img/proyectos/img_red.jpg" alt="Galería 1" class="w-full h-32 object-cover">
+                        </a>
+                        <a href="img/proyectos/img_red2.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
+                            <img src="img/proyectos/img_red2.jpg" alt="Galería 1" class="w-full h-32 object-cover">
+                        </a>
+                        <a href="img/proyectos/img_red3.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
+                            <img src="img/proyectos/img_red3.jpg" alt="Galería 1" class="w-full h-32 object-cover">
+                        </a>
+                        <a href="img/proyectos/img_red4.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
+                            <img src="img/proyectos/img_red4.jpg" alt="Galería 2" class="w-full h-32 object-cover">
+                        </a>
+                        <!-- Más imágenes -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <section id="testimonios" class="bg-black text-white py-16 px-8">
+        </section>
+        
+
+        <section id="contacto" class="bg-black text-white py-16 px-8">
+            <div class="form-container">
+              <form id="formulario" class="space-y-4"></form>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+              <div class="general-info space-y-6"></div>
+              <div class="quick-links"></div>
+              <div class="contact-info"></div>
+            </div>
+          </section>
+        
+        
+	</main>
+
+	<footer class="py-8">
+		<div class="mx-auto px-4 text-center translatable" data-en="&copy; 2024 Diego Alexander Alemán Castro. All rights reserved. Design by <a href='https://yoelias.com/'' rel='nofollow' class='text-blue-500'>Elias Parada</a>." data-es="&copy; 2024 Diego Alexander Alemán Castro. Todos los derechos reservados. Diseño por <a href='https://yoelias.com/'' rel='nofollow' class='text-blue-500'>Elias Parada</a>.">
+			<p>&copy; 2024 Diego Alexander Alemán Castro. Todos los derechos reservados. Diseño por <a href="https://yoelias.com/" rel="nofollow" class="text-blue-500">Elias Parada</a>.</p>
+		</div>
+	</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/menu.js"></script>
+    <script src="js/inicio.js"></script>
+    <script src="js/sobremi.js"></script>
+    <script src="js/habilidades.js"></script>
+    <script src="js/certificados.js"></script>
+    <script src="js/proyectos.js"></script>
+    <script src="js/testimonios.js"></script>
+    <script src="js/contacto.js"></script>
+
+    <script>
+        AOS.init();
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateMenu('es').then(seccionesActivas => {
+                if (seccionesActivas['inicio']) cargarInicio('es');
+                if (seccionesActivas['sobre-mi']) cargarSobreMi('es');
+                if (seccionesActivas['habilidades']) cargarHabilidades('es');
+                if (seccionesActivas['certificados']) cargarCertificaciones('es');
+                if (seccionesActivas['proyectos']) cargarProyectos('es');
+                if (seccionesActivas['testimonios']) cargarTestimonios('es');
+                if (seccionesActivas['contacto']) cargarContacto('es');
+            });
+        });
+    </script>
+    <!-- <script src="js/lang.js"></script> -->
+
+    <script type="text/javascript">
+        emailjs.init("3TKcLSS1q0tyssTdp");
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            const btn = document.getElementById('enviar');
+            const form = document.getElementById('formulario');
+
+            const mensajes = {
+                es: {
+                    success: {
+                        title: 'Mensaje enviado',
+                        text: '¡Gracias por comunicarte conmigo!'
+                    },
+                    error: {
+                        title: 'Mensaje fallido',
+                        text: 'Vuelve a intentar más tarde'
+                    }
+                },
+                en: {
+                    success: {
+                        title: 'Message sent',
+                        text: 'Thank you for reaching out to me!'
+                    },
+                    error: {
+                        title: 'Message failed',
+                        text: 'Please try again later'
+                    }
+                }
+            };
+    
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+    
+                btn.value = 'Sending...';
+    
+                const serviceID = 'service_7akbgc6';
+                const templateID = 'template_5z4eo2l';
+    
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        Swal.fire({
+                            icon: 'success',
+                            title: mensajes[currentLang].success.title,
+                            text: mensajes[currentLang].success.text,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        form.reset();
+                    }, (err) => {
+                        Swal.fire({
+                            icon: 'error',
+                            title: mensajes[currentLang].error.title,
+                            text: mensajes[currentLang].error.text,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        console.error(err);
+                    });
+            });
+        }
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+
+        const swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Abrir Modal
+        function openModal(projectId) {
+            document.getElementById('modal-proyecto').classList.remove('hidden');
+        }
+
+        // Cerrar Modal
+        function closeModal() {
+            document.getElementById('modal-proyecto').classList.add('hidden');
+        }
+
+        document.getElementById('menu-button').addEventListener('click', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    
+</body>
+
+</html>

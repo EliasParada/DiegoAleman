@@ -1,0 +1,46 @@
+{
+    "secciones" : {
+        "inicio" : {
+            "es" : "Inicio",
+            "en" : "Home",
+            "activo" : true
+        },
+        "sobre-mi" : {
+            "es" : "Sobre mí",
+            "en" : "About me",
+            "activo" : true
+        },
+        "habilidades" : {
+            "es" : "Habilidades",
+            "en" : "Skills",
+            "activo" : true
+        },
+        "certificados" : {
+            "es" : "Certificados",
+            "en" : "Cets",
+            "activo" : true
+        },
+        "proyectos" : {
+            "es" : "Proyectos",
+            "en" : "Projects",
+            "activo" : true
+        },
+        "testimonios" : {
+            "es" : "Testimonios",
+            "en" : "Testimonials",
+            "activo" : false
+        },
+        "contacto" : {
+            "es" : "Contacto",
+            "en" : "Contact",
+            "activo" : true
+        }
+    },
+    "otros" : {
+        "idioma" : {
+            "es" : "Idioma",
+            "en" : "Languaje",
+            "activo" : true
+        }
+    }
+}

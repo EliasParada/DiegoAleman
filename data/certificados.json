@@ -1,0 +1,127 @@
+{
+    "es": {
+      "sectionTitle": "Certificaciones",
+      "subtitle": "Certificaciones de Ciberseguridad",
+      "certifications": [
+        {
+          "title": "Certified ISO 27001 Internal Auditor - I27001IA",
+          "issuer": "Certiprof",
+          "date": "4 de Febrero de 2023",
+          "image": "img/certificados/certificado 1.jpg",
+          "icon": "fa-solid fa-shield-halved",
+          "link": "https://www.credly.com/badges/a5d9d37b-2978-4b62-a6d6-d98dcc90e8ba/linked_in_profile"
+        },
+        {
+          "title": "Ethical Hacking Certified Associate (EHCA)",
+          "issuer": "NaN",
+          "date": "6 de Junio de 2023",
+          "image": "img/certificados/certificado 2.jpg",
+          "icon": "fa-solid fa-lock",
+          "link": "https://badgr.com/public/assertions/rMx4XCcCS4OGgQC_PTjATQ"
+        },
+        {
+          "title": "certificación en Seguridad Informática",
+          "issuer": "NEXT_U",
+          "date": "7 de Septiembre e 2022",
+          "image": "img/certificados/certificado 3.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credential.net/299dd80a-615a-4e0e-b238-68a0e16b690f#gs.isa2b5"
+        },
+        {
+          "title": "Seguridad Informática",
+          "issuer": "Platzi",
+          "date": "28 de Noviembre de 2022",
+          "image": "img/certificados/certificado 4.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://platzi.com/p/ELDiego/ruta/38-seguridad-informatica/diploma/detalle/"
+        },
+        {
+          "title": "Programa PMJ",
+          "issuer": "HACKERMENTOR CIBERSEGURIDAD .S.A.S",
+          "date": "19 de Mayo de 2023",
+          "image": "img/certificados/certificado 5.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://verified.sertifier.com/es/verify/66339218970374/"
+        },
+        {
+          "title": "Ethical Hacking Professional Certification - CEHPC",
+          "issuer": "Certiprof",
+          "date": "18 de Agosto de 2024",
+          "image": "img/certificados/certificado 6.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credly.com/badges/988dc6cf-921a-4b12-9389-6b44cf14de73/linked_in_profile"
+        },
+        {
+          "title": "CCNA: Enterprise Networking, Security, and Automation",
+          "issuer": "Cisco",
+          "date": "12 de Diciembre de 2023",
+          "image": "img/certificados/certificado 7.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credly.com/badges/062c72ea-9b9d-4073-b786-821e92fbb125"
+        }
+      ]
+    },
+    "en": {
+      "sectionTitle": "Certifications",
+      "subtitle": "Cybersecurity Certifications",
+      "certifications": [
+        {
+          "title": "Certified ISO 27001 Internal Auditor - I27001IA",
+          "issuer": "Certiprof",
+          "date": "4 de Febrero de 2023",
+          "image": "img/certificados/certificado 1.jpg",
+          "icon": "fa-solid fa-shield-halved",
+          "link": "https://www.credly.com/badges/a5d9d37b-2978-4b62-a6d6-d98dcc90e8ba/linked_in_profile"
+        },
+        {
+          "title": "Ethical Hacking Certified Associate (EHCA)",
+          "issuer": "NaN",
+          "date": "6 de Junio de 2023",
+          "image": "img/certificados/certificado 2.jpg",
+          "icon": "fa-solid fa-lock",
+          "link": "https://badgr.com/public/assertions/rMx4XCcCS4OGgQC_PTjATQ"
+        },
+        {
+          "title": "certificación en Seguridad Informática",
+          "issuer": "NEXT_U",
+          "date": "7 de Septiembre e 2022",
+          "image": "img/certificados/certificado 3.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credential.net/299dd80a-615a-4e0e-b238-68a0e16b690f#gs.isa2b5"
+        },
+        {
+          "title": "Seguridad Informática",
+          "issuer": "Platzi",
+          "date": "28 de Noviembre de 2022",
+          "image": "img/certificados/certificado 4.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://platzi.com/p/ELDiego/ruta/38-seguridad-informatica/diploma/detalle/"
+        },
+        {
+          "title": "Programa PMJ",
+          "issuer": "HACKERMENTOR CIBERSEGURIDAD .S.A.S",
+          "date": "19 de Mayo de 2023",
+          "image": "img/certificados/certificado 5.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://verified.sertifier.com/es/verify/66339218970374/"
+        },
+        {
+          "title": "Ethical Hacking Professional Certification - CEHPC",
+          "issuer": "Certiprof",
+          "date": "18 de Agosto de 2024",
+          "image": "img/certificados/certificado 6.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credly.com/badges/988dc6cf-921a-4b12-9389-6b44cf14de73/linked_in_profile"
+        },
+        {
+          "title": "CCNA: Enterprise Networking, Security, and Automation",
+          "issuer": "Cisco",
+          "date": "12 de Diciembre de 2023",
+          "image": "img/certificados/certificado 7.jpg",
+          "icon": "fa-solid fa-user-secret",
+          "link": "https://www.credly.com/badges/062c72ea-9b9d-4073-b786-821e92fbb125"
+        }
+      ]
+    }
+  }
+  

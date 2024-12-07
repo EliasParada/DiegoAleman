@@ -1,0 +1,12 @@
+{
+    "es": {
+        "title": "Soy Diego Alemán",
+        "subtitle": "Apasionado en seguridad ofensiva y redes informáticas.",
+        "actionCall": "Contactame"
+    },
+    "en": {
+        "title": "I am Diego Alemán",
+        "subtitle": "Passionate about QA Testing",
+        "actionCall": "Contact me"
+    }
+}

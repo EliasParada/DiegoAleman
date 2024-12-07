@@ -1,0 +1,41 @@
+{
+    "es": {
+      "form": {
+        "title": "Formulario de Contacto",
+        "fields": {
+          "name": {
+            "label": "Nombre",
+            "placeholder": "Ingresa tu nombre"
+          },
+          "email": {
+            "label": "Correo Electrónico",
+            "placeholder": "Ingresa tu correo electrónico"
+          },
+          "subject": {
+            "label": "Asunto",
+            "placeholder": "Ingresa el asunto"
+          },
+          "message": {
+            "label": "Mensaje",
+            "placeholder": "Escribe tu mensaje"
+          },
+          "submit": "Enviar"
+        }
+      },
+      "generalInfo": {
+        "title": "Soy Diego Aleman",
+        "description": "Si quieres contactarme me encuentras en.",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/diego-aleman-sv/"
+        }
+      },
+      "contactInfo": {
+        "title": "Contáctanos",
+        "details": [
+          {"icon": "fas fa-envelope", "text": "Diego_Aleman@outlook.com"},
+          {"icon": "fas fa-phone", "text": "TELEFONO"}
+        ]
+      }
+    }
+  }
+  
