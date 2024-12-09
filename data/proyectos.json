@@ -14,11 +14,11 @@
         },
         {
           "title": "Pishing de red social",
-          "description": "Clonado un login de instagram con un Keylogger de fondo.",
+          "description": "Falsificación de un login de instagram con un Keylogger de fondo que captura credenciales.",
           "image": "img/proyectos/insta1.jpg",
           "carousel": ["img/proyectos/insta2.jpg", "img/proyectos/insta3.jpg"],
-          "gallery": ["img/proyectos/insta4.jpg", "img/proyectos/insta5.jpg"],
-          "details": "Ejercicio de phishing enfocado a usuarios de Instagram para que sepan identificar la legitimidad de este, con la finalidad de detectar a usuarios potencialmente vulnerables a robo de credenciales.",
+          "gallery": ["img/proyectos/insta4.jpg", "img/proyectos/insta5.jpg", "img/proyectos/insta6.jpg", "img/proyectos/insta7.jpg", "img/proyectos/insta8.jpg", "img/proyectos/insta9.jpg"],
+          "details": "Realizar una campaña de phishing dirigida a usuarios deInstagram como ejemplo para evaluar su capacidad de identificar fraudes y detectar posibles vulnerabilidades relacionadas con el robo de credenciales usando herrmamientas como HIDDENEYE y Vortex para la falsificación de portocolos web seguros como HTTPS",
            "link": "https://drive.google.com/file/d/1_K9co8SiZFiwHHLJxxHSwCqkfPmMlDZW/view?usp=sharing"
         }
       ]
