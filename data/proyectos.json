@@ -13,13 +13,22 @@
           "link": "https://docs.google.com/document/d/1dksUzaomuU8Ihd0j3LTFFHxKKcMh2USp/edit?usp=sharing&ouid=113303509095636816159&rtpof=true&sd=true"
         },
         {
-          "title": "Pishing de red social",
+          "title": "Phishing de red social",
           "description": "Falsificación de un login de instagram con un Keylogger de fondo que captura credenciales.",
           "image": "img/proyectos/insta1.jpg",
           "carousel": ["img/proyectos/insta2.jpg", "img/proyectos/insta3.jpg"],
           "gallery": ["img/proyectos/insta4.jpg", "img/proyectos/insta5.jpg", "img/proyectos/insta6.jpg", "img/proyectos/insta7.jpg", "img/proyectos/insta8.jpg", "img/proyectos/insta9.jpg"],
-          "details": "Realizar una campaña de phishing dirigida a usuarios deInstagram como ejemplo para evaluar su capacidad de identificar fraudes y detectar posibles vulnerabilidades relacionadas con el robo de credenciales usando herrmamientas como HIDDENEYE y Vortex para la falsificación de portocolos web seguros como HTTPS",
-           "link": "https://drive.google.com/file/d/1_K9co8SiZFiwHHLJxxHSwCqkfPmMlDZW/view?usp=sharing"
+          "details": "Realizar una campaña de Phhishing dirigida a usuarios de Instagram como ejemplo para evaluar su capacidad de identificar fraudes y detectar posibles vulnerabilidades relacionadas con el robo de credenciales usando herrmamientas como HIDDENEYE y Vortex para la falsificación de protocolos web seguros como HTTPS",
+           "link": "https://drive.google.com/file/d/1QZyv-FWWpDm1qk20SHqEf44rrFmyjtOn/view?usp=sharing"
+        },
+        {
+          "title": "implementación de SIEM Wazuh",
+          "description": "Proyecto de catedra: Creación de entorno SIEM con Wazuh server y configuración de agentes Wazuh para su monitoreo en tiempo real ante amenazas.",
+          "image": "img/proyectos/wazuh2.jpg",
+          "carousel": ["img/proyectos/wazuh1.jpg"],
+          "gallery": ["img/proyectos/wazuh3.jpg", "img/proyectos/wazuh4.jpg", "img/proyectos/wazuh5.jpg", "img/proyectos/wazuh6.jpg"],
+          "details": "Implementación de Wazuh server en Ubuntu para monitoreo y seguridad en sistemas empresariales. Incluye la instalación y configuración del Wazuh Server, registro de agentes en Windows 10 y Debian 11 y demostración de módulos clave: Integrity Monitoring, Vulnerability Detection, System Auditing e Inventory Data.",
+           "link": "https://drive.google.com/file/d/1fxl9Q8U7W8iiEP7fKTYKBeR1n7MR0b42/view?usp=sharing"
         }
       ]
     },
