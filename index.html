@@ -111,45 +111,8 @@
         </section>
 
         <!-- Modal de Proyecto -->
-        <div id="modal-proyecto" class="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center hidden">
-            <div class="relative w-11/12 max-w-4xl bg-gray-900 rounded-lg overflow-hidden p-6">
-                <button onclick="closeModal()" class="absolute top-4 right-4 bg-red-600 text-white rounded-full p-2 z-10">
-                    <i class="fa-solid fa-times"></i>
-                </button>
-                <div class="swiper-container w-full h-64">
-                    <div class="swiper-wrapper">
-                        <!-- Imágenes del carrusel -->
-                        <div class="swiper-slide">
-                            <img src="img/proyectos/logo2.jpg" alt="Carrusel 2" class="w-full h-full object-cover">
-                        </div>
-                        <!-- Más imágenes -->
-                    </div>
-                    <!-- Controles del carrusel -->
-                    <div class="swiper-button-next text-red-600"></div>
-                    <div class="swiper-button-prev text-red-600"></div>
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-2xl font-bold text-white">Detalles del Proyecto</h3>
-                    <p class="text-gray-400 mt-4">Descripción extendida del proyecto, incluyendo tecnologías utilizadas, desafíos y logros.</p>
-                    <div class="mt-6 grid grid-cols-2 gap-4">
-                        <!-- Galería de Imágenes -->
-                        <a href="img/proyectos/img_red.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
-                            <img src="img/proyectos/img_red.jpg" alt="Galería 1" class="w-full h-32 object-cover">
-                        </a>
-                        <a href="img/proyectos/img_red2.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
-                            <img src="img/proyectos/img_red2.jpg" alt="Galería 1" class="w-full h-32 object-cover">
-                        </a>
-                        <a href="img/proyectos/img_red3.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
-                            <img src="img/proyectos/img_red3.jpg" alt="Galería 1" class="w-full h-32 object-cover">
-                        </a>
-                        <a href="img/proyectos/img_red4.jpg" data-lightbox="gallery" class="overflow-hidden rounded-md">
-                            <img src="img/proyectos/img_red4.jpg" alt="Galería 2" class="w-full h-32 object-cover">
-                        </a>
-                        <!-- Más imágenes -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="modal-proyecto" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"></div>
+
         
 
         <section id="testimonios" class="bg-black text-white py-16 px-8">
@@ -178,6 +141,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 
     <script src="js/menu.js"></script>
     <script src="js/inicio.js"></script>
@@ -269,7 +235,6 @@
     </script>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script>
 
         const swiper = new Swiper('.swiper-container', {

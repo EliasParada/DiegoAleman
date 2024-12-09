@@ -31,10 +31,10 @@ async function cargarInicio(language) {
         buttonElement.setAttribute('data-es', data['es'].actionCall);
 
         const contenedorImagen = document.createElement('div');
-        contenedorImagen.className = 'absolute w-2/3 md:w-2/5 lg:w-2/6 max-h-full bottom-0 right-0 flex justify-end items-center flex-col -z-10';
+        contenedorImagen.className = ' w-2/3 md:w-2/5 lg:w-2/6 max-h-full bottom-0 right-0 flex justify-end items-center flex-col -z-10';
 
         const imagen = document.createElement('img');
-        imagen.src = 'img/logo.png';
+        imagen.src = 'img/perfil.jpg';
         imagen.alt = 'Diego Alexander Alemán Castro';
 
         contenedorTexto.appendChild(titleElement);
