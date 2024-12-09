@@ -20,6 +20,15 @@
           "gallery": ["img/proyectos/insta4.jpg", "img/proyectos/insta5.jpg", "img/proyectos/insta6.jpg", "img/proyectos/insta7.jpg", "img/proyectos/insta8.jpg", "img/proyectos/insta9.jpg"],
           "details": "Realizar una campaña de Phishing dirigida a usuarios de Instagram como ejemplo para evaluar su capacidad de identificar fraudes y detectar posibles vulnerabilidades relacionadas con el robo de credenciales usando herrmamientas como HIDDENEYE y Vortex para la falsificación de protocolos web seguros como HTTPS",
            "link": "https://drive.google.com/file/d/1QZyv-FWWpDm1qk20SHqEf44rrFmyjtOn/view?usp=sharing"
+        },
+        {
+          "title": "Implementación de SIEM Wazuh",
+          "description": "Proyecto de catedra: Creación de entorno SIEM con Wazuh server y configuración de agentes Wazuh para su monitoreo en tiempo real ante amenazas.",
+          "image": "img/proyectos/wazuh2.jpg",
+          "carousel": ["img/proyectos/wazuh1.jpg"],
+          "gallery": ["img/proyectos/wazuh3.jpg", "img/proyectos/wazuh4.jpg", "img/proyectos/wazuh5.jpg", "img/proyectos/wazuh6.jpg"],
+          "details": "Implementación de Wazuh server en Ubuntu para monitoreo y seguridad en sistemas empresariales. Incluye la instalación y configuración del Wazuh Server, registro de agentes en Windows 10 y Debian 11 y demostración de módulos clave: Integrity Monitoring, Vulnerability Detection, System Auditing e Inventory Data.",
+           "link": "https://drive.google.com/file/d/1fxl9Q8U7W8iiEP7fKTYKBeR1n7MR0b42/view?usp=sharing"
         }
       ]
     },
