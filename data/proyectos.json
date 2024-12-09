@@ -22,7 +22,7 @@
            "link": "https://drive.google.com/file/d/1QZyv-FWWpDm1qk20SHqEf44rrFmyjtOn/view?usp=sharing"
         },
         {
-          "title": "implementación de SIEM Wazuh",
+          "title": "Implementación de SIEM Wazuh",
           "description": "Proyecto de catedra: Creación de entorno SIEM con Wazuh server y configuración de agentes Wazuh para su monitoreo en tiempo real ante amenazas.",
           "image": "img/proyectos/wazuh2.jpg",
           "carousel": ["img/proyectos/wazuh1.jpg"],
