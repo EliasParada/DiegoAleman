@@ -13,12 +13,13 @@
           "link": "https://docs.google.com/document/d/1dksUzaomuU8Ihd0j3LTFFHxKKcMh2USp/edit?usp=sharing&ouid=113303509095636816159&rtpof=true&sd=true"
         },
         {
-          "title": "Análisis de Vulnerabilidades",
-          "description": "Un análisis exhaustivo de vulnerabilidades.",
-          "image": "ruta-a-imagen-proyecto-2.jpg",
-          "carousel": ["ruta-a-imagen-carrusel-3.jpg", "ruta-a-imagen-carrusel-4.jpg"],
-          "gallery": ["ruta-a-imagen-galeria-3.jpg", "ruta-a-imagen-galeria-4.jpg"],
-          "details": "Descripción detallada de este proyecto con herramientas utilizadas y resultados."
+          "title": "Pishing de red social",
+          "description": "Clonado un login de instagram con un Keylogger de fondo.",
+          "image": "img/proyectos/insta1.jpg",
+          "carousel": ["img/proyectos/insta2.jpg", "img/proyectos/insta3.jpg"],
+          "gallery": ["img/proyectos/insta4.jpg", "img/proyectos/insta5.jpg"],
+          "details": "Ejercicio de phishing enfocado a usuarios de Instagram para que sepan identificar la legitimidad de este, con la finalidad de detectar a usuarios potencialmente vulnerables a robo de credenciales.",
+           "link": "https://drive.google.com/file/d/1_K9co8SiZFiwHHLJxxHSwCqkfPmMlDZW/view?usp=sharing"
         }
       ]
     },
