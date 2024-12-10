@@ -12,12 +12,12 @@
                 {
                     "title": "Herramientas de pentesting y análisis",
                     "description": "Experiencia con herramientas como arp-scan, netdiscover, aircrack-ng, Metasploit, Nmap, Wireshark, wpscan, Jhon the Reaper, Hydra entre otras.",
-                    "progress": 75
+                    "progress": 87
                 },
                 {
                     "title": "Seguridad ofensiva",
                     "description": "Técnicas y metodologías para simular ataques de red y sevicios comunes.",
-                    "progress": 75
+                    "progress": 80
                 },
                 {
                     "title": "Normativas de seguridad de la información",
@@ -25,9 +25,9 @@
                     "progress": 70
                 },
                 {
-                    "title": "Auditor de redes WIFI",
-                    "description": "Manejo de suite de aircrack con airodump,aireplay y wireshark para pruebas de seguridad en redes WIFI.",
-                    "progress": 85
+                    "title": "Practicante en hacking de redes WIFI",
+                    "description": "Conocimientos basicos de suite de aircrack con airodump,aireplay y wireshark para pruebas de seguridad en redes WIFI.",
+                    "progress": 77
                 }
             ],
             "habilidadesDuras": [
